@@ -7,8 +7,9 @@
 #Business Objective
 
 #Develop a machine learning model to predict movie success using features 
-#such as budget, popularity, runtime, vote average, and genres. The project aims to:
-
+#such as budget, popularity, runtime, vote average, and genres.
+ 
+#The project aims to:
 #Analyze historical movie data to identify success factors.
 #Clean and preprocess data for model training.
 #Build and evaluate a Random Forest classifier.
@@ -97,3 +98,4 @@ print(df.describe())
 
 #Save the Clean Dataset
 df.to_csv("data/movies_cleaned.csv", index=False)
+
