@@ -1,3 +1,26 @@
+##Problem Statement
+
+# Predicting movie success is challenging due to the many factors that influence 
+# audience response and revenue. Production companies need a data-driven approach 
+# to analyze historical movie data and estimate the likelihood of a movie's success before release.
+
+#Business Objective
+
+#Develop a machine learning model to predict movie success using features 
+#such as budget, popularity, runtime, vote average, and genres. The project aims to:
+
+#Analyze historical movie data to identify success factors.
+#Clean and preprocess data for model training.
+#Build and evaluate a Random Forest classifier.
+#Provide an interactive Streamlit dashboard for visualization and prediction.
+
+#Business Impact
+#Supports data-driven investment decisions.
+#Helps identify key factors influencing movie success.
+#Reduces financial risk before movie production.
+#Assists stakeholders in planning budgets and production strategies.
+
+
 import pandas as pd
 
 # Load Dataset
